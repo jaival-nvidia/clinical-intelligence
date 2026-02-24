@@ -1,0 +1,7 @@
+{
+  "name": "clinical-intelligence",
+  "version": "1.0.0",
+  "description": "AI agents for clinical data workflows on FHIR hospital endpoints. Pulls patient data from multiple systems, compiles case summaries, and runs cross-patient analysis -- all locally.",
+  "author": "DGX Demo",
+  "license": "MIT"
+}

@@ -1,0 +1,2743 @@
+{
+  "resourceType": "Bundle",
+  "id": "72e51172-ecab-4957-90c7-a3cd66da12a5",
+  "meta": {
+    "lastUpdated": "2026-02-24T04:21:58.298-05:00"
+  },
+  "type": "searchset",
+  "total": 47,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://r4.smarthealthit.org/Condition?_count=200&code=44054006"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/526c0f8c-93db-46e9-b6a3-43dd2409c0c8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "526c0f8c-93db-46e9-b6a3-43dd2409c0c8",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:57:08.369-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ecaea95c-46de-4ac9-a58d-4847d1a3e574"
+        },
+        "encounter": {
+          "reference": "Encounter/d54861f7-501c-4336-b135-3592768c54af"
+        },
+        "onsetDateTime": "1960-09-03T19:20:06+00:00",
+        "recordedDate": "1960-09-03T19:20:06+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/681199da-f2e1-45e6-80f2-7a1fb9e668f2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "681199da-f2e1-45e6-80f2-7a1fb9e668f2",
+        "meta": {
+          "versionId": "6",
+          "lastUpdated": "2026-01-24T02:15:26.367-05:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ebb1f0e2-4fa6-4889-a43b-9cda3c737078"
+        },
+        "encounter": {
+          "reference": "Encounter/935c8e3f-95a3-4d3f-ac13-7dbf24812306"
+        },
+        "onsetDateTime": "2013-04-21T22:26:37+00:00",
+        "recordedDate": "2013-04-21T22:26:37+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"6\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/95d8ae15-aa5c-467c-84ec-b4d51d4b3e28",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "95d8ae15-aa5c-467c-84ec-b4d51d4b3e28",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:57:53.681-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/71304c2e-64b0-4b57-91f6-2c1ff771d72c"
+        },
+        "encounter": {
+          "reference": "Encounter/ad7a0e59-5cef-4343-b7a0-17cd88e381d8"
+        },
+        "onsetDateTime": "1985-01-17T18:42:18+00:00",
+        "recordedDate": "1985-01-17T18:42:18+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/abc9ea4f-6eb2-44b6-8f02-e16cb056b5ca",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "abc9ea4f-6eb2-44b6-8f02-e16cb056b5ca",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:57:54.950-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/881f534f-d041-425d-a542-cbf669f43e18"
+        },
+        "encounter": {
+          "reference": "Encounter/942c89e4-7046-40cd-9f36-5ae8e314e171"
+        },
+        "onsetDateTime": "2003-01-15T13:06:23+00:00",
+        "recordedDate": "2003-01-15T13:06:23+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/42e5f6d1-4f64-43d8-96d3-a1c213aca769",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "42e5f6d1-4f64-43d8-96d3-a1c213aca769",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:02:42.051-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/9eb43ac3-7c1e-4e25-94cd-4b2c43f7234e"
+        },
+        "encounter": {
+          "reference": "Encounter/5d598521-17a1-47c8-b312-49048f850b66"
+        },
+        "onsetDateTime": "2009-06-27T07:38:43+00:00",
+        "recordedDate": "2009-06-27T07:38:43+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/18c1215b-8fc4-466e-a15c-417004fb2535",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "18c1215b-8fc4-466e-a15c-417004fb2535",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:58:25.182-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/9bf59715-246f-4ce2-85a6-58c1757f8d21"
+        },
+        "encounter": {
+          "reference": "Encounter/36456a00-944c-490f-916b-e150a41ee9d9"
+        },
+        "onsetDateTime": "1982-02-01T16:34:40+00:00",
+        "recordedDate": "1982-02-01T16:34:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/69d55451-9037-480d-afdb-19f84d959b53",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "69d55451-9037-480d-afdb-19f84d959b53",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:58:26.540-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/0e61c3ad-d11e-4080-a6aa-cac89cae4e37"
+        },
+        "encounter": {
+          "reference": "Encounter/76497b49-2f42-4507-8fcb-e108be097f46"
+        },
+        "onsetDateTime": "1991-04-18T05:09:36+00:00",
+        "recordedDate": "1991-04-18T05:09:36+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/792c8847-975e-435d-bdff-0a22a0228fe8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "792c8847-975e-435d-bdff-0a22a0228fe8",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:03:12.849-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/948e608d-e408-4788-8cf2-8157c49c2940"
+        },
+        "encounter": {
+          "reference": "Encounter/64df8be4-a4aa-408f-bac9-6b452c236364"
+        },
+        "onsetDateTime": "2019-03-05T20:32:26+00:00",
+        "recordedDate": "2019-03-05T20:32:26+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/c54489bc-e98b-4797-87e4-6f9592a0543e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c54489bc-e98b-4797-87e4-6f9592a0543e",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:59:11.176-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/9efca32a-04f9-438a-990c-a287e8b62aac"
+        },
+        "encounter": {
+          "reference": "Encounter/0439f791-b6dc-4ca9-a3ff-11f9c9cd769d"
+        },
+        "onsetDateTime": "1951-04-23T23:11:46+00:00",
+        "recordedDate": "1951-04-23T23:11:46+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/37b8d49f-af81-4f2a-ba2c-cd16029b942d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37b8d49f-af81-4f2a-ba2c-cd16029b942d",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:59:11.547-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/d483a480-4a42-428c-bf9b-fdbaddf78e21"
+        },
+        "encounter": {
+          "reference": "Encounter/1ccd7d4c-d28e-4338-9602-c9ca9b350378"
+        },
+        "onsetDateTime": "2000-01-17T07:36:34+00:00",
+        "recordedDate": "2000-01-17T07:36:34+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/c0a1d2ef-797c-4b23-ba45-90fad1d17344",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c0a1d2ef-797c-4b23-ba45-90fad1d17344",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:03:38.243-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/5fd069dc-e337-4062-9722-a732c655c17d"
+        },
+        "encounter": {
+          "reference": "Encounter/e8d85bdb-c978-4c01-b122-0b8595d2664d"
+        },
+        "onsetDateTime": "1963-07-27T19:20:06+00:00",
+        "recordedDate": "1963-07-27T19:20:06+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/9440dbf4-f93c-47e9-96c6-9cad9a6d9506",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9440dbf4-f93c-47e9-96c6-9cad9a6d9506",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:59:20.852-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/bd6f9f37-7295-4cd6-b212-134afcef1253"
+        },
+        "encounter": {
+          "reference": "Encounter/4fbbfa80-e9bc-439c-adcc-61e145e093e3"
+        },
+        "onsetDateTime": "1998-03-21T21:37:43+00:00",
+        "recordedDate": "1998-03-21T21:37:43+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/9703dd83-e507-4ebe-96e6-b785661c9f60",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9703dd83-e507-4ebe-96e6-b785661c9f60",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:59:21.967-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/7f445dad-0907-4a3e-81a5-ad75ecdff752"
+        },
+        "encounter": {
+          "reference": "Encounter/0a45a855-cd66-4b88-90b9-e2057ad9c33c"
+        },
+        "onsetDateTime": "2005-12-13T11:02:24+00:00",
+        "recordedDate": "2005-12-13T11:02:24+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/75448cb2-1aca-4b6d-bb56-2217b19d9c7c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "75448cb2-1aca-4b6d-bb56-2217b19d9c7c",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T02:59:31.960-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/132f48ba-1d72-4e0c-a220-91786d7501aa"
+        },
+        "encounter": {
+          "reference": "Encounter/35c89d54-af08-4ff8-b378-3c7e5b974d14"
+        },
+        "onsetDateTime": "2017-11-10T00:14:49+00:00",
+        "recordedDate": "2017-11-10T00:14:49+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/b0c5762a-4a6a-4799-98cf-89156b62602b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b0c5762a-4a6a-4799-98cf-89156b62602b",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:04:17.103-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/f12a1a30-9ce0-48dd-91de-ce5c3fcf8828"
+        },
+        "encounter": {
+          "reference": "Encounter/0ecf22ec-e258-40de-8877-7307295f5194"
+        },
+        "onsetDateTime": "1978-04-15T07:44:08+00:00",
+        "recordedDate": "1978-04-15T07:44:08+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/3e2b6e19-1397-4f56-abf5-adbccf36b967",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3e2b6e19-1397-4f56-abf5-adbccf36b967",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:04:23.347-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/3e26303e-a72a-4c60-866f-e5b81a9f1989"
+        },
+        "encounter": {
+          "reference": "Encounter/fa014bfb-fc0b-4f87-8c01-c1cb82de7f2b"
+        },
+        "onsetDateTime": "1963-07-22T22:39:41+00:00",
+        "recordedDate": "1963-07-22T22:39:41+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/5f5383f0-ec9c-4c29-b49a-c080648cb13c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5f5383f0-ec9c-4c29-b49a-c080648cb13c",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:00:29.595-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/af0e5952-c2ac-44fc-a896-36e9e30c2097"
+        },
+        "encounter": {
+          "reference": "Encounter/f64db5a0-09d9-4583-9990-2e97d7acf66e"
+        },
+        "onsetDateTime": "2007-04-19T19:56:12+00:00",
+        "recordedDate": "2007-04-19T19:56:12+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/bb93ac67-f7ba-4d92-a744-c6d016f776e9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bb93ac67-f7ba-4d92-a744-c6d016f776e9",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:00:56.907-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ffd502c9-23e1-4f8f-bc8a-87373acad280"
+        },
+        "encounter": {
+          "reference": "Encounter/f3a1bbb3-3028-47f1-85ea-160854426294"
+        },
+        "onsetDateTime": "2001-11-19T17:17:39+00:00",
+        "recordedDate": "2001-11-19T17:17:39+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/b846e0f3-b308-4497-905f-af4c600aa434",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b846e0f3-b308-4497-905f-af4c600aa434",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:01:19.779-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/fa064acf-b7f1-4279-83d3-7a94686da7ba"
+        },
+        "encounter": {
+          "reference": "Encounter/2ba84de3-3686-49a4-829f-56355911856a"
+        },
+        "onsetDateTime": "1962-05-05T02:39:21+00:00",
+        "recordedDate": "1962-05-05T02:39:21+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/eeec214d-af48-4ba3-8a92-00b10ef96102",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eeec214d-af48-4ba3-8a92-00b10ef96102",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:05:38.614-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/efe58fa2-c6df-4a71-8e37-06c5e4f1e2b8"
+        },
+        "encounter": {
+          "reference": "Encounter/7c48b8a2-e52f-4f24-a4c1-21f46d0870bc"
+        },
+        "onsetDateTime": "2007-08-03T00:26:57+00:00",
+        "recordedDate": "2007-08-03T00:26:57+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/ac0f8b2e-6be5-4473-9810-a0c2168204ea",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ac0f8b2e-6be5-4473-9810-a0c2168204ea",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:01:53.974-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/1ac8947d-038f-4cc7-81fa-a32e694187e8"
+        },
+        "encounter": {
+          "reference": "Encounter/f0668453-7505-40fc-9a3e-f771cf2ef09c"
+        },
+        "onsetDateTime": "1994-05-16T16:42:48+00:00",
+        "recordedDate": "1994-05-16T16:42:48+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/f8fa5f28-e6a4-428c-95ff-c28229e6bf58",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f8fa5f28-e6a4-428c-95ff-c28229e6bf58",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:01:57.757-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/7099b4c5-6f47-4293-9690-f2afb23b9dd6"
+        },
+        "encounter": {
+          "reference": "Encounter/749f452c-816f-48ee-8894-5dec8f466628"
+        },
+        "onsetDateTime": "1981-08-30T00:41:27+00:00",
+        "recordedDate": "1981-08-30T00:41:27+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/0b8d8e19-32e9-469c-abcc-d7fd212a8700",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0b8d8e19-32e9-469c-abcc-d7fd212a8700",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:02:39.628-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/4d58465c-4703-4c36-ab8f-2f935dc4bee7"
+        },
+        "encounter": {
+          "reference": "Encounter/b1937b80-6307-47e7-b4f3-2f7e16074fd4"
+        },
+        "onsetDateTime": "1995-10-26T17:37:12+00:00",
+        "recordedDate": "1995-10-26T17:37:12+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/d0561e5b-e81e-4405-b9ce-7447baac01db",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d0561e5b-e81e-4405-b9ce-7447baac01db",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:03:04.060-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/5db1e775-33a3-47fb-8954-d97cd43e8074"
+        },
+        "encounter": {
+          "reference": "Encounter/f7e38477-db9f-469f-a6e3-62ba532b2958"
+        },
+        "onsetDateTime": "2007-07-22T18:29:30+00:00",
+        "recordedDate": "2007-07-22T18:29:30+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/c21b61f1-43d5-49b6-88d5-b8abea278a0c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c21b61f1-43d5-49b6-88d5-b8abea278a0c",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:03:05.454-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/148f10e1-2182-4297-ac1f-39bb9eca6f1a"
+        },
+        "encounter": {
+          "reference": "Encounter/1c05dda5-74fc-4417-89ba-836d1ed177d3"
+        },
+        "onsetDateTime": "2019-06-25T04:22:04+00:00",
+        "recordedDate": "2019-06-25T04:22:04+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/1f523b43-0166-45cf-b752-523524112b3d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1f523b43-0166-45cf-b752-523524112b3d",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:07:08.968-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/1d4685c4-e83e-4a73-a8e5-147a4c0b4ed4"
+        },
+        "encounter": {
+          "reference": "Encounter/2f2e7db4-27ac-4b2b-9eee-f233d501dcd9"
+        },
+        "onsetDateTime": "1957-06-24T23:11:46+00:00",
+        "recordedDate": "1957-06-24T23:11:46+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/91a2d625-f886-4902-9507-215e7d08d5e4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "91a2d625-f886-4902-9507-215e7d08d5e4",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:03:36.441-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/75a4631d-2cd8-4c77-afb6-740bad394ea1"
+        },
+        "encounter": {
+          "reference": "Encounter/0adacade-5199-45e9-8fec-0d277e84330c"
+        },
+        "onsetDateTime": "1988-08-22T07:57:54+00:00",
+        "recordedDate": "1988-08-22T07:57:54+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/0b1f17ec-e88b-4d74-9d3c-abd13001d1e4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0b1f17ec-e88b-4d74-9d3c-abd13001d1e4",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:03:52.754-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ec6a274e-5090-45c9-b153-e40418f6fa3d"
+        },
+        "encounter": {
+          "reference": "Encounter/b392f8a1-fdbf-4b29-8141-e60fedd46082"
+        },
+        "onsetDateTime": "1987-07-23T19:27:45+00:00",
+        "recordedDate": "1987-07-23T19:27:45+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/8a69a588-1cf3-49b3-bcc1-29201eca2383",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8a69a588-1cf3-49b3-bcc1-29201eca2383",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:04:08.619-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/bae2bf00-eca1-47fb-bb43-272f8de1449c"
+        },
+        "encounter": {
+          "reference": "Encounter/228c1d96-c110-4763-b947-c6be8d5b56e7"
+        },
+        "onsetDateTime": "2020-01-31T19:28:31+00:00",
+        "recordedDate": "2020-01-31T19:28:31+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/5cfeb498-f18f-42ba-ab9e-c34b44d5f450",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5cfeb498-f18f-42ba-ab9e-c34b44d5f450",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:08:39.408-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/12edb5a0-ec71-45b7-aff6-0fef1c382881"
+        },
+        "encounter": {
+          "reference": "Encounter/fae7a4a7-8dd9-4c91-b559-a979df42516c"
+        },
+        "onsetDateTime": "1973-11-15T09:15:59+00:00",
+        "recordedDate": "1973-11-15T09:15:59+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/17c3b410-18ec-4b18-9865-4986668ee272",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "17c3b410-18ec-4b18-9865-4986668ee272",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:05:00.075-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ab4e7a7d-8b0d-41e1-9ce9-3877d7615aed"
+        },
+        "encounter": {
+          "reference": "Encounter/6cbc33ec-3786-4517-afda-a3ba3d241c66"
+        },
+        "onsetDateTime": "2006-01-19T14:01:57+00:00",
+        "recordedDate": "2006-01-19T14:01:57+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/0e2dce2a-153e-4ae4-8f29-17544b81acd1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0e2dce2a-153e-4ae4-8f29-17544b81acd1",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:05:13.996-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/ab049f15-0df7-4702-b768-dcc3d6b3c536"
+        },
+        "encounter": {
+          "reference": "Encounter/ffc9439c-3979-4680-afd9-8ed6ec2806c8"
+        },
+        "onsetDateTime": "1934-01-15T05:19:57+00:00",
+        "recordedDate": "1934-01-15T05:19:57+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/7fac8919-43d4-4d5c-8496-e54f3fb89f48",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7fac8919-43d4-4d5c-8496-e54f3fb89f48",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:05:26.606-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/d5525459-8f3e-4e60-8ed2-5140d165db75"
+        },
+        "encounter": {
+          "reference": "Encounter/539af124-ed8e-4970-bdcc-cd5d1cf71f37"
+        },
+        "onsetDateTime": "1988-07-24T04:59:42+00:00",
+        "recordedDate": "1988-07-24T04:59:42+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/634f2c5f-1224-484f-8bea-733ea6128595",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "634f2c5f-1224-484f-8bea-733ea6128595",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:05:29.389-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/15661112-796c-460c-bf7a-6b297e33f113"
+        },
+        "encounter": {
+          "reference": "Encounter/31890895-22e0-4fcb-b602-ec3e1615cd68"
+        },
+        "onsetDateTime": "1964-09-03T18:37:30+00:00",
+        "recordedDate": "1964-09-03T18:37:30+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/1426231b-731e-43cc-bd3b-df2ebde1942b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1426231b-731e-43cc-bd3b-df2ebde1942b",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:09:23.244-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/af82ad91-b8d4-46cc-96f2-645da53763f1"
+        },
+        "encounter": {
+          "reference": "Encounter/939595f5-58b3-46aa-bf53-982a750108f8"
+        },
+        "onsetDateTime": "1951-12-10T23:11:46+00:00",
+        "recordedDate": "1951-12-10T23:11:46+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/5fb2aec1-1ec6-4338-9be1-623906574af5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5fb2aec1-1ec6-4338-9be1-623906574af5",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:06:21.250-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/8f65af92-c3c9-4316-bb7f-862c248788dd"
+        },
+        "encounter": {
+          "reference": "Encounter/d58898b1-483e-4784-a9c7-63783a089670"
+        },
+        "onsetDateTime": "1990-09-14T11:51:55+00:00",
+        "recordedDate": "1990-09-14T11:51:55+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/b31a7f6a-76e8-436c-8260-7adb6bd16887",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b31a7f6a-76e8-436c-8260-7adb6bd16887",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:10:11.303-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/b361ebbe-5dd5-4dee-a178-773d774fc04d"
+        },
+        "encounter": {
+          "reference": "Encounter/f8de440e-45d2-4d32-9c45-888e7cdcf33c"
+        },
+        "onsetDateTime": "1998-01-27T03:53:29+00:00",
+        "recordedDate": "1998-01-27T03:53:29+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/1acc6cff-8e02-4a10-88c2-ffc61a109bdd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1acc6cff-8e02-4a10-88c2-ffc61a109bdd",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:09:10.528-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/186ff984-f437-4817-8d35-0997a8b7f405"
+        },
+        "encounter": {
+          "reference": "Encounter/8dab672a-8d9a-4ea1-9aad-786587264df6"
+        },
+        "onsetDateTime": "1991-12-29T05:07:21+00:00",
+        "recordedDate": "1991-12-29T05:07:21+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/894ae14f-f448-47b9-8e96-c28772ae7757",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "894ae14f-f448-47b9-8e96-c28772ae7757",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-06T03:12:53.949-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/acc12451-4ef0-414b-b072-48e780a90874"
+        },
+        "encounter": {
+          "reference": "Encounter/75a02c2b-c444-4541-a51d-d97e01bd2272"
+        },
+        "onsetDateTime": "2015-05-22T18:29:50+00:00",
+        "recordedDate": "2015-05-22T18:29:50+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/e1edfa76-d3ab-4366-9d9d-81003203c4f8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e1edfa76-d3ab-4366-9d9d-81003203c4f8",
+        "meta": {
+          "versionId": "7",
+          "lastUpdated": "2022-12-04T02:17:24.015-05:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/b218cee9-019d-47a4-b161-e97c0fd6f736"
+        },
+        "encounter": {
+          "reference": "Encounter/73943a0b-c650-452a-8ffe-6204eb314cba"
+        },
+        "onsetDateTime": "2010-12-31T01:17:52+00:00",
+        "recordedDate": "2010-12-31T01:17:52+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"7\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/bf2961c5-28ba-4645-a593-a86305cb5a5c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bf2961c5-28ba-4645-a593-a86305cb5a5c",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2021-04-07T03:10:54.602-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/8d1f86a8-3284-43bd-b45e-5931948c97e4"
+        },
+        "encounter": {
+          "reference": "Encounter/54907329-b365-4598-81fa-cea7a747812e"
+        },
+        "onsetDateTime": "1999-01-02T16:42:50+00:00",
+        "recordedDate": "1999-01-02T16:42:50+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"4\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/26b5a9d3-06c6-4c0c-8639-e97a42bb898c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "26b5a9d3-06c6-4c0c-8639-e97a42bb898c",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:03:47.108-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/b2eeab29-a67d-4941-8540-6372911cfc17"
+        },
+        "encounter": {
+          "reference": "Encounter/2fe2d385-7dd0-4bcd-a684-880643886a52"
+        },
+        "onsetDateTime": "2002-12-01T21:42:54+00:00",
+        "recordedDate": "2002-12-01T21:42:54+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/2d0b6265-fc9e-47d9-9b9e-290c030cccc4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2d0b6265-fc9e-47d9-9b9e-290c030cccc4",
+        "meta": {
+          "versionId": "10",
+          "lastUpdated": "2021-04-06T03:03:13.807-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/f2316789-30c4-4c06-9193-0ca5475bbb1b"
+        },
+        "encounter": {
+          "reference": "Encounter/6cd3ea5d-3ff3-4ad8-8ed6-86998531d0f2"
+        },
+        "onsetDateTime": "2017-07-07T04:38:18+00:00",
+        "recordedDate": "2017-07-07T04:38:18+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"10\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/6ad68581-9c4a-494d-9c53-1ca81774bbc1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6ad68581-9c4a-494d-9c53-1ca81774bbc1",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:05:20.758-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/c6e10999-2d4f-405d-964c-2e61f0aebd76"
+        },
+        "encounter": {
+          "reference": "Encounter/a859143c-4536-48f6-86ff-a9f1a88fc95e"
+        },
+        "onsetDateTime": "1997-12-14T04:08:33+00:00",
+        "recordedDate": "1997-12-14T04:08:33+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/ced65361-cc7c-45f2-874f-be1e7ba6fc34",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ced65361-cc7c-45f2-874f-be1e7ba6fc34",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:07:24.833-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/5f6d256f-fc32-4b10-ba9c-51aba830cfa4"
+        },
+        "encounter": {
+          "reference": "Encounter/299fe92f-71f1-4dc2-b09f-ade0b197830d"
+        },
+        "onsetDateTime": "1988-09-24T05:46:40+00:00",
+        "recordedDate": "1988-09-24T05:46:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/92fd22dd-2986-4f7d-8b13-93a73ad8f0f3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "92fd22dd-2986-4f7d-8b13-93a73ad8f0f3",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2021-04-06T03:07:40.915-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/65b95f0a-e27d-4536-b04e-4e17a726ed38"
+        },
+        "encounter": {
+          "reference": "Encounter/10646870-4db8-484e-a470-f4acc1e3b6b8"
+        },
+        "onsetDateTime": "1994-03-22T21:04:33+00:00",
+        "recordedDate": "1994-03-22T21:04:33+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"3\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/Condition/1a0a6cb0-6d82-4054-a3bc-8f64ae3694dd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1a0a6cb0-6d82-4054-a3bc-8f64ae3694dd",
+        "meta": {
+          "versionId": "8",
+          "lastUpdated": "2021-04-06T03:11:21.681-04:00",
+          "tag": [
+            {
+              "system": "https://smarthealthit.org/tags",
+              "code": "synthea-5-2019"
+            }
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes"
+            }
+          ],
+          "text": "Diabetes"
+        },
+        "subject": {
+          "reference": "Patient/87a339d0-8cae-418e-89c7-8651e6aab3c6"
+        },
+        "encounter": {
+          "reference": "Encounter/2b35fc79-ac6d-4e92-8104-fc62bd30aefb"
+        },
+        "onsetDateTime": "1987-04-01T23:17:40+00:00",
+        "recordedDate": "1987-04-01T23:17:40+00:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "200 OK",
+        "etag": "W/\"8\""
+      }
+    }
+  ]
+}
