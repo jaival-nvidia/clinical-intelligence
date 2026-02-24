@@ -31,14 +31,13 @@ clinical-intelligence/
     fhir-basics/SKILL.md           # How FHIR APIs work, endpoints, JSON paths
     clinical-knowledge/SKILL.md    # Lab reference ranges, condition codes, drug classes
     analysis-methods/SKILL.md      # How to write correct analysis code
+    case-summary/SKILL.md          # /case-summary slash command
+    cohort-compare/SKILL.md        # /cohort-compare slash command
   agents/
     patient-data-agent.md          # Queries Patient + Condition endpoints
     labs-vitals-agent.md           # Queries Observation endpoint (labs, vitals)
     medications-agent.md           # Queries MedicationRequest endpoint
     analyst-agent.md               # Writes and runs analysis code
-  commands/
-    case-summary.md                # /clinical:case -- compile one patient's data
-    cohort-compare.md              # /clinical:compare -- analyze across patients
   scripts/
     serve-llm.sh                   # Start GLM-4.7-Flash via Ollama
     test-fhir.py                   # Verify FHIR test server is reachable
@@ -57,13 +56,27 @@ ollama run glm-4.7-flash "Hello"   # quick test
 
 Ollama serves at `http://localhost:11434` by default.
 
-### 2. Install the plugin in Claude Code
+### 2. Install skills and agents into your project
 
-From the project root:
+From your working directory (e.g., `~/clinical-demo`):
 
 ```bash
-claude plugin install ./clinical-intelligence
+git clone https://github.com/jaival-nvidia/clinical-intelligence.git /tmp/ci-plugin
+
+mkdir -p .claude/agents .claude/skills
+cp /tmp/ci-plugin/agents/* .claude/agents/
+cp -r /tmp/ci-plugin/skills/* .claude/skills/
+
+rm -rf /tmp/ci-plugin
 ```
+
+Then start Claude Code from that directory:
+
+```bash
+claude
+```
+
+Type `/` to verify skills appear: `/case-summary`, `/cohort-compare`, `/fhir-basics`, `/clinical-knowledge`, `/analysis-methods`.
 
 ### 3. Verify FHIR test server
 
@@ -91,26 +104,26 @@ This saves FHIR responses to `fallback-data/` as local JSON files.
 ### Compile a patient case summary
 
 ```
-/clinical:case "Prepare case summary for patient [name] from https://r4.smarthealthit.org"
+/case-summary the first patient from https://r4.smarthealthit.org
 ```
 
-This dispatches three agents in parallel (demographics, labs, medications), then compiles a formatted case summary with clinical flags.
+This uses the fhir-basics and clinical-knowledge skills to query all FHIR endpoints, compile demographics, conditions, labs, and medications, and flag abnormal values.
 
 ### Run a cohort quality analysis
 
 ```
-/clinical:compare "Pull all diabetic patients from https://r4.smarthealthit.org. For each, get latest A1c and medications. Find patients with A1c above 9% not on insulin or GLP-1. Show distribution."
+/cohort-compare Find all diabetic patients (SNOMED 44054006) from https://r4.smarthealthit.org. Get latest A1c (LOINC 4548-4) and medications. Find patients with A1c above 9% not on insulin or GLP-1. Show distribution.
 ```
 
-This finds the patient cohort, pulls data for each, and produces a report with statistics and a chart.
+This finds the patient cohort, pulls data for each, writes Python analysis code, and produces a report with statistics and a chart.
 
 ### Try a different clinical question
 
 ```
-/clinical:compare "Find all hypertensive patients. Get latest blood pressure. Find patients with systolic above 140 not on any antihypertensive."
+/cohort-compare Find all hypertensive patients (SNOMED 38341003) from https://r4.smarthealthit.org. Get latest systolic BP (LOINC 8480-6). Find patients with systolic above 140 not on any antihypertensive.
 ```
 
-Same agents, different question. The system adapts because the skills teach it what the data means.
+Same skills, different question. The system adapts because the skills teach it what the data means.
 
 ## How to Customize
 
