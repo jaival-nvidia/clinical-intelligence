@@ -143,6 +143,27 @@ Example: a radiology agent that queries FHIR DiagnosticReport endpoints for imag
 
 Create a file at `commands/my-command.md` with a description and step-by-step instructions for how to orchestrate the agents.
 
+## GUI Workbench
+
+A Streamlit web app that provides a visual interface for the same clinical workflows -- no terminal needed.
+
+```bash
+cd app
+pip install -r requirements.txt
+streamlit run workbench.py
+```
+
+Features:
+- NVIDIA dark theme
+- Configure FHIR endpoints and test connections
+- Pre-built workflows: Case Summary, Quality Gap Analysis, Custom Query
+- Pre-populated clinical conditions (Diabetes, Hypertension, Heart Failure, CKD) with correct SNOMED/LOINC codes
+- Code generation, execution, and chart display in one click
+- Download results as TXT or the generated Python script
+- Timing metrics (LLM generation time, code execution time)
+
+The workbench talks directly to your local LLM (Ollama or vLLM) and loads the same skill files as the Claude Code plugin.
+
 ## Key Facts
 
 - **FHIR** is the API standard used by ~70% of US hospitals (source: ONC 2024)
